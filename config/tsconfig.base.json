@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "paths": {
+      "@org/liba": ["a/liba"]
+    },
+    "esModuleInterop": true,
+    "target": "ES2017",
+    "resolveJsonModule": true,
+    "moduleResolution": "Node"
+  }
+}

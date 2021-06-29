@@ -1,0 +1,12 @@
+{
+  "extends": "../../config/tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "../../",
+    "rootDir": "../../",
+    "outDir": "../../build/ts"
+  },
+  "include": ["."],
+  "references": [{
+    "path": "../../a/liba"
+  }]
+}
